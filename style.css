@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 900;
+    
+}
+
+body {
+	position: relative;
+	left: 15px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+span {
+	font-family: 'Train One', cursive;
+	font-size: 20px;
+}
+
+.daily-rate {
+    margin-top: 25px;
+    padding-right: 15%;
+    display: block;
+}
+
+#name-vitamins {
+    margin-top: -471px;
+    margin-left: 325px;
+    display: block;
+}
+
+hr {
+	position: absolute;
+    width: 40%;
+    left: 33%;
+}
+
+.search-elem{
+	position: relative;
+    top: 580px;
+}
