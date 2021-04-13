@@ -1,4 +1,5 @@
 * {
+    background-color: #fbfbfb;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -41,7 +42,7 @@ hr {
     left: 33%;
 }
 
-.search-elem{
+.search-elem {
 	position: relative;
     top: 580px;
 }

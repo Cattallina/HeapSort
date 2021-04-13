@@ -152,66 +152,66 @@ const input = document.createElement('div');
 	    <div class="wrapper">
 	    	<div class="daily-rate">
 	    		<span class="name-tabl">Суточная норма</span>
-				   	<p id="rate1" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate2" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate3" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate4" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate5" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate6" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate7" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate8" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate9" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate10" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate11" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate12" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate13" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate14" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate15" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate16" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate17" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate18" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
-				   	<p id="rate19" class="rate"></p>
+				   	<p class="rate"></p>
 				   	<hr>
 			</div>
 			<div class="name-vitamin" id="name-vitamins">
 				<span class="name-tabl">Название витаминов</span>
-				   	<p class="name-vit" id="name-vit1"></p>
-				   	<p class="name-vit" id="name-vit2"></p>
-				   	<p class="name-vit" id="name-vit3"></p>
-				   	<p class="name-vit" id="name-vit4"></p>
-				   	<p class="name-vit" id="name-vit5"></p>
-				   	<p class="name-vit" id="name-vit6"></p>
-				   	<p class="name-vit" id="name-vit7"></p>
-				   	<p class="name-vit" id="name-vit8"></p>
-				   	<p class="name-vit" id="name-vit9"></p>
-				   	<p class="name-vit" id="name-vit10"></p>
-				   	<p class="name-vit" id="name-vit11"></p>
-				   	<p class="name-vit" id="name-vit12"></p>
-				   	<p class="name-vit" id="name-vit13"></p>
-				   	<p class="name-vit" id="name-vit14"></p>
-				   	<p class="name-vit" id="name-vit15"></p>
-				   	<p class="name-vit" id="name-vit16"></p>
-				   	<p class="name-vit" id="name-vit17"></p>
-				   	<p class="name-vit" id="name-vit18"></p>
-				   	<p class="name-vit" id="name-vit19"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
+				   	<p class="name-vit"></p>
 			</div>
 		</div>
 	   	`;
@@ -225,45 +225,7 @@ const rate = document.querySelectorAll('.rate'),
 	  btn2 = document.querySelector('#btn2'),
 	  btn3 = document.querySelector('#btn3');
 
-const rate1 = document.querySelectorAll(`#rate1`),
-	  rate2 = document.querySelectorAll(`#rate2`),
-	  rate3 = document.querySelectorAll(`#rate3`),
-	  rate4 = document.querySelectorAll(`#rate4`),
-	  rate5 = document.querySelectorAll(`#rate5`),
-	  rate6 = document.querySelectorAll(`#rate6`),
-	  rate7 = document.querySelectorAll(`#rate7`),
-	  rate8 = document.querySelectorAll(`#rate8`),
-	  rate9 = document.querySelectorAll(`#rate9`),
-	  rate10 = document.querySelectorAll(`#rate10`),
-	  rate11 = document.querySelectorAll(`#rate11`),
-	  rate12 = document.querySelectorAll(`#rate12`),
-	  rate13 = document.querySelectorAll(`#rate13`),
-	  rate14 = document.querySelectorAll(`#rate14`),
-	  rate15 = document.querySelectorAll(`#rate15`),
-	  rate16 = document.querySelectorAll(`#rate16`),
-	  rate17 = document.querySelectorAll(`#rate17`),
-	  rate18 = document.querySelectorAll(`#rate18`),
-	  rate19 = document.querySelectorAll(`#rate19`),
-	  vit1 = document.querySelectorAll(`#name-vit1`),
-	  vit2 = document.querySelectorAll(`#name-vit2`),
-	  vit3 = document.querySelectorAll(`#name-vit3`),
-	  vit4 = document.querySelectorAll(`#name-vit4`),
-	  vit5 = document.querySelectorAll(`#name-vit5`),
-	  vit6 = document.querySelectorAll(`#name-vit6`),
-	  vit7 = document.querySelectorAll(`#name-vit7`),
-	  vit8 = document.querySelectorAll(`#name-vit8`),
-	  vit9 = document.querySelectorAll(`#name-vit9`),
-	  vit10 = document.querySelectorAll(`#name-vit10`),
-	  vit11 = document.querySelectorAll(`#name-vit11`),
-	  vit12 = document.querySelectorAll(`#name-vit12`),
-	  vit13 = document.querySelectorAll(`#name-vit13`),
-	  vit14 = document.querySelectorAll(`#name-vit14`),
-	  vit15 = document.querySelectorAll(`#name-vit15`),
-	  vit16 = document.querySelectorAll(`#name-vit16`),
-	  vit17 = document.querySelectorAll(`#name-vit17`),
-	  vit18 = document.querySelectorAll(`#name-vit18`),
-	  vit19 = document.querySelectorAll(`#name-vit19`);
-
+let dd = document.querySelector('.name-vitamin');
 
 function createTabl(){
 	for (let i = 0; i < arr.length; i++) {
@@ -280,14 +242,15 @@ function getEvent(){
 
 	btn2.addEventListener('click', ()=>{	
 		let xx = arr.find(nam => nam.vitamin === input1.value);
-		arr = arr.filter(item => item !== xx);
-
-		for(let i = vit.length - 1; 0 <= i; i--)
- 			if (vit[i] && vit[i].parentElement){
- 				vit[i].parentElement.removeChild(vit[i]);
-			}
-
+			arr = arr.filter(item => item !== xx);
+		 for (let i = 0; i < arr.length; i++) {	
+		 	if (input1.value == vit[i].innerText) {
+		 		vit[i].remove();
+		 		rate[i].remove();
+		 	}
+		 }
 		console.log(arr);
+		dd.style.marginTop = '-447px';
 	});
 
 	btn3.addEventListener('click', ()=>{	
@@ -306,8 +269,7 @@ function getEvent(){
  			if (rate[j] && rate[j].parentElement){
  				rate[j].parentElement.innerHTML += input2.value;
 			}
-		let dd = document.querySelector('.name-vitamin');
-		dd.style.marginTop = '-494px';
+		dd.style.marginTop = '-471px';
 	});
 }
 
